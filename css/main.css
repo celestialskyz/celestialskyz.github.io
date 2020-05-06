@@ -355,7 +355,33 @@ dd {
   margin: 0 0 0 2rem;
 }
 
+#skills h1{
+  margin-left: 45px;
+}
 
+#skills img{
+  height: 100%;
+  width: 20%;
+}
+
+#projects a {
+  height: 100%;
+  width: 20%;
+}
+
+#projects i{
+  height: 100%;
+  width: 5%;
+}
+#projects .bgrid.step img {
+  height: 100%;
+  width: 80%;
+}
+#projects .bgrid.step a img {
+  height: 20px;
+  width: 20px;
+  color:rgb(0, 135, 204);
+}
 /* ------------------------------------------------------------------- 
  * Spacing - (_document-setup)  
  * ------------------------------------------------------------------- */
@@ -1439,6 +1465,7 @@ h1.intro-header::before {
 }
 
 .home-content {
+  
   display: table-cell;
   width: 100%;
   height: 100%;
@@ -2480,7 +2507,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  *
  * ------------------------------------------------------------------- */
 
-#download {
+#contact {
   background: #39b54a;
   color: #b2fabc;
   padding-top: 12rem;
@@ -2488,11 +2515,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   text-align: center;
 }
 
-#download h1 {
+#contact h1 {
   color: #ffffff;
 }
 
-#download h1::before {
+#contact h1::before {
   background-color: #2a9038;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -2500,28 +2527,35 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   transform: translateX(-50%);
 }
 
-#download .lead {
+#contact .lead {
   color: #b2fabc;
   margin-top: 4.8rem;
 }
 
-#download .row {
+#contact .row {
   max-width: 800px;
 }
-
-#download .download-badges {
+.input-field.textarea-input input, textarea{
+  width: 100%;
+  background: rgba(250, 250, 250, 0.68);
+}
+/* .class {
+  background-color: white;
+} */
+/* 
+#contact .download-badges {
   list-style: none;
   margin: 0;
   text-align: center;
 }
 
-#download .download-badges li {
+#contact .download-badges li {
   display: inline-block;
   margin: 0 7.5px;
   padding-left: 0;
 }
 
-#download .download-badges li a {
+#contact .download-badges li a {
   display: block;
   width: 230px;
   height: 71px;
@@ -2531,15 +2565,15 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-repeat: no-repeat;
   background-position: center;
   background-size: 230px 71px;
-}
+} */
 
-#download .download-badges li a.badge-appstore {
+/* #download .download-badges li a.badge-appstore {
   background-image: url("../images/appstore.png");
 }
 
 #download .download-badges li a.badge-googleplay {
   background-image: url("../images/google-play.png");
-}
+} */
 
 
 /* ------------------------------------------------------------------- 
@@ -2615,14 +2649,14 @@ footer ul a:visited {
 
 .footer-logo {
   display: block;
-  margin: 0 0 5.4rem 0;
+  margin: 0 0 1.5rem 0;
   padding: 0;
   outline: 0;
   border: none;
-  width: 93px;
-  height: 21px;
-  background: url("../images/logo.png") no-repeat center;
-  background-size: 93px 21px;
+  width: 190px;
+  height: 200px;
+  background: url("../images/LBlogo.png") no-repeat center;
+  background-size: 190px 200px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -2634,6 +2668,7 @@ footer ul a:visited {
   font-size: 1.8rem;
   margin-top: -1.5rem;
   margin-bottom: 3rem;
+  margin-left: 2rem;
 }
 
 .footer-social-list li {
