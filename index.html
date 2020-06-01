@@ -56,7 +56,7 @@
 				<li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>	
 			</ul>
 
-            <a href="images/2020 Resume.pdf" title="sign-up" class="button button-primary cta">Resume</a>
+            <a href="images/2020 Resume.pdf" title="sign-up" class="button button-primary cta" target="_blank">Resume</a>
 		</nav>
 
 		<a class="header-menu-toggle" href="#"><span>Menu</span></a>    	
@@ -106,16 +106,16 @@
 
         <ul class="home-social-list">
             <li>
-                <a href="https://github.com/celestialskyz"><i class="fa fa-github"></i></a>
+                <a href="https://github.com/celestialskyz" target="_blank"><i class="fa fa-github"></i></a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/lianne-bisch/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/lianne-bisch/" target="_blank"><i class="fa fa-linkedin"></i></a>
             </li>
             <li>
-                <a href="https://angel.co/u/lianne-bisch"><i class="fa fa-angellist"></i></a>
+                <a href="https://angel.co/u/lianne-bisch" target="_blank"><i class="fa fa-angellist"></i></a>
             </li>
             <li>
-                <a href="mailto:lannybys@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="mailto:lannybys@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
             </li>
         </ul>
         <!-- end home-social-list -->
@@ -153,7 +153,7 @@
         <h1 class="intro-header aos-init aos-animate" data-aos="fade-up">Skills</h1>
         <div class="row about-features">
 
-            <div class="features-list block-1-3 block-m-1-2 block-mob-full group">
+            <div class="features-list block-1-3 block-m-1-2 block-mob-full group" style="column-count: 2;">
 
                 <div class="bgrid feature" data-aos="fade-up">	
 
@@ -379,7 +379,14 @@
     </div>        
 
 </div>
+<div class="bgrid feature" data-aos="fade-up">
+    <h3>Additional Skills</h3>
+    <p>
+        React, MySQL, Git, Node.js, Express.js, jQuery, Heroku, Mongoose, Webpack, D3, Google Maps API
+    </p>
+</div>
 
+</div>
         </div> <!-- end about-features -->
     <section id="projects">
         <div class="row about-how">
@@ -394,8 +401,8 @@
                         <p>Pixel perfect clone of the dining and reservation website OpenTable with a broadway theme. </p>
                          <img src="images/openplaybillgif.gif">
                         
-                        <div><a href="https://openplaybill.herokuapp.com/#/"><img src="images/link.png"> Live Link</a>
-                        <a href="https://github.com/celestialskyz/full_stack_proj"><i class="fa fa-github"></i>Github</a>
+                        <div><a href="https://openplaybill.herokuapp.com/#/" target="_blank"><img src="images/link.png"> Live Link</a>
+                        <a href="https://github.com/celestialskyz/full_stack_proj" target="_blank"><i class="fa fa-github"></i>Github</a>
                         </div>
                         
                     </div>
@@ -403,8 +410,8 @@
                         <h3>Fit Challenger</h3>
                         <p>Fitness website for users to take on fitness challenges and challenge others.</p> 
                         <img src= "images/fitchallengegif.gif">
-                      <div> <a href="https://fitchallenger.herokuapp.com/"> <img src="images/link.png"> Live Link</a>                   
-                    <a href="https://github.com/RSchaubeck/fit-challenger"><i class="fa fa-github"></i>Github</a>
+                      <div> <a href="https://fitchallenger.herokuapp.com/" target="_blank"> <img src="images/link.png"> Live Link</a>                   
+                    <a href="https://github.com/RSchaubeck/fit-challenger" target="_blank"><i class="fa fa-github"></i>Github</a>
                     </div> 
                     </div>               
                
@@ -413,8 +420,8 @@
                         <p>Front end site which dynamically displays Covid-19 data in the form of bar charts. 
                         </p>  
                         <img src="images/covidgif.gif">
-                       <div> <a href="https://celestialskyz.github.io/Javascript-Project/"> <img src="images/link.png">Live Link</a>
-                        <a href="https://github.com/celestialskyz/Javascript-Project"><i class="fa fa-github"></i>Github</a>
+                       <div> <a href="https://celestialskyz.github.io/Javascript-Project/" target="_blank"> <img src="images/link.png">Live Link</a>
+                        <a href="https://github.com/celestialskyz/Javascript-Project" target="_blank"><i class="fa fa-github"></i>Github</a>
                         </div>
                         
                     </div>
@@ -561,15 +568,15 @@
             <div class="col-full">
                 <h1 class="intro-header"  data-aos="fade-up">Contact</h1>
 
-                <form class="lead" data-aos="fade-up">
+                <form class="lead" data-aos="fade-up" action="https://formspree.io/xgenkvzy" method="POST">
                     <div class="input-field textarea-input">
-                    <input id="contact_name" type="text" name="contactName" class="validate input-box" placeholder="Name">
-                    <input id="email" type="email" name="contactEmail" class="validate input-box" placeholder="Email">
+                    <input id="contact_name" type="text" name="name" class="validate input-box" placeholder="Name">
+                    <input id="email" type="email" name="_replyto" class="validate input-box" placeholder="Email">
                     <input id="subject" type="text" name="contactSubject" class="validate input-box" placeholder="Subject">
                     <textarea id="textarea1" name="contactMessage" class="validate materialize-textarea" placeholder="Message" style="height: 22px;"></textarea>
                       
                     </div>
-                    <button>Send</button>
+                    <button type="submit">Send</button>
                 </form>
 
                 <!-- <ul class="download-badges">
@@ -595,16 +602,16 @@
                     <div class="footer-logo"></div>
                     <ul class="footer-social-list">
                         <li>
-                            <a href="https://github.com/celestialskyz"><i class="fa fa-github"></i></a>
+                            <a href="https://github.com/celestialskyz" target="_blank"><i class="fa fa-github"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/lianne-bisch/"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/lianne-bisch/" target="_blank"><i class="fa fa-linkedin"></i></a>
                         </li>
                         <li>
-                            <a href="https://angel.co/u/lianne-bisch"><i class="fa fa-angellist"></i></a>
+                            <a href="https://angel.co/u/lianne-bisch" target="_blank"><i class="fa fa-angellist"></i></a>
                         </li>
                         <li>
-                            <a href="mailto:lannybys@gmail.com"><i class="fa fa-envelope"></i></a>
+                            <a href="mailto:lannybys@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
                         </li>
                     </ul>
                     
@@ -673,7 +680,7 @@
       		<div class="col-twelve">
 	      		<div class="copyright">
 		         	<span>© Copyright Dazzle 2017.</span> 
-		         	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>		         	
+		         	<span>Design by <a href="http://www.styleshout.com/" target="_blank">styleshout</a></span>		         	
 		         </div>
 
 		         <div id="go-top">
