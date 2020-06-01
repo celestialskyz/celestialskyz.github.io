@@ -399,7 +399,11 @@
                     <div class="bgrid step" data-item="1">
                         <h3>OpenPlaybill</h3>
                         <p>Pixel perfect clone of the dining and reservation website OpenTable with a broadway theme. </p>
-                         <img src="images/openplaybillgif.gif">
+                        <ul>
+                            <li>Designed Rails backend search feature for Broadway shows that allowed filtering by category without additional database queries using the pg-search gem. </li>
+                            <li>Adapted Redux’s unidirectional state management to increase speed of search result page and eliminate the need to render a new page.</li>
+                        </ul> 
+                        <img src="images/openplaybillgif.gif">
                         
                         <div><a href="https://openplaybill.herokuapp.com/#/" target="_blank"><img src="images/link.png"> Live Link</a>
                         <a href="https://github.com/celestialskyz/full_stack_proj" target="_blank"><i class="fa fa-github"></i>Github</a>
@@ -409,6 +413,10 @@
                     <div class="bgrid step" data-item="2">
                         <h3>Fit Challenger</h3>
                         <p>Fitness website for users to take on fitness challenges and challenge others.</p> 
+                        <ul>
+                            <li> Leveraged Express Router to separate different challenge resources and create routes for CRUD actions with challenges and user challenges to expand and improve user experience.</li>  
+                            <li>Incorporated Mongoose to construct schema models for challenges, and group challenges by assigning intuitive and flexible data types to reflect the polymorphic association between users and challenges.</li>
+                        </ul>
                         <img src= "images/fitchallengegif.gif">
                       <div> <a href="https://fitchallenger.herokuapp.com/" target="_blank"> <img src="images/link.png"> Live Link</a>                   
                     <a href="https://github.com/RSchaubeck/fit-challenger" target="_blank"><i class="fa fa-github"></i>Github</a>
@@ -419,6 +427,10 @@
                         <h3>Is It Over Yet? </h3>
                         <p>Front end site which dynamically displays Covid-19 data in the form of bar charts. 
                         </p>  
+                        <ul>
+                            <li>Employed external API to provide statistics by sending XMLHttp Get Requests to the Covid-19 API and parse the information for incorporation into bar graphs. </li>
+                            <li>Created a MouseOver function with transition to the DOM for when a bar is hovered on, it is assigned an additional class for css and is given a new width and height for proportional growth.</li>
+                        </ul>
                         <img src="images/covidgif.gif">
                        <div> <a href="https://celestialskyz.github.io/Javascript-Project/" target="_blank"> <img src="images/link.png">Live Link</a>
                         <a href="https://github.com/celestialskyz/Javascript-Project" target="_blank"><i class="fa fa-github"></i>Github</a>
