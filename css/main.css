@@ -2296,21 +2296,24 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  *
  * ------------------------------------------------------------------- */
 
-#testimonials {
+#awards {
   background: #FFFFFF;
   padding: 15rem 0 9rem;
   text-align: center;
   min-height: 600px;
 }
+#testimonals .aos-init aos-animate{
+  font-size: 2rem;
+}
 
-#testimonials h1::before {
+#awards h1::before {
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
-#testimonials .owl-wrap {
+#awards .owl-wrap {
   width: 80%;
   max-width: 900px;
   margin: 4.2rem auto 0;
@@ -2458,7 +2461,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * testimonials
+ * awards
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1024px) {
@@ -2484,7 +2487,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 @media only screen and (max-width: 600px) {
-  #testimonials .owl-wrap {
+  #awards .owl-wrap {
     width: 90%;
   }
   #testimonial-slider p {
